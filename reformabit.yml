@@ -4,7 +4,7 @@ provider:
 
 functions:
   reformabit:
-    lang: node
+    lang: dockerfile
     handler: ./reformabit
     image: reformabit
     environment:
